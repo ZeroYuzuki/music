@@ -1,0 +1,5 @@
+var clipboadCopy = function(id){
+    var urltext = document.getElementById(id);
+    urltext.select();
+    document.execCommand("copy");
+};
