@@ -88,6 +88,13 @@
 <input type="button" value="コピーする？" onclick="clipboadCopy('mc10')">
     </div>
   </section>
+    <script>
+      var clipboadCopy = function(id){
+    var urltext = document.getElementById(id);
+    urltext.select();
+    document.execCommand("copy");
+};
+      <script>
   </body>
 </html>
 
